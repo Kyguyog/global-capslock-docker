@@ -23,13 +23,8 @@ NOw we can all share a siNGLE KEY!
 ### HoW TO RUn ThiS MYSelF
 
 ### Docker Desktop:
-
-Install Docker Desktop, then open Terminal or CMD in project's dir, last:
 ```
-docker build -t global-capslock .
-```
-```
-docker run --name Global-Capslock-Server -p 8000:8000 global-capslock
+docker run --name Global-Capslock-Server -d -p 8000:8000 kyguy2/global-capslock:latest
 ```
 
 Only Tested on Windows btw
