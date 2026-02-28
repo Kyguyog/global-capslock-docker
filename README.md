@@ -22,8 +22,23 @@ NOw we can all share a siNGLE KEY!
 
 ### HoW TO RUn ThiS MYSelF
 
-`example-server.py` MAY HELp
+### Docker Desktop:
 
+Install Docker Desktop, then open Terminal or CMD in project's dir, last:
+```
+docker build -t global-capslock .
+```
+```
+docker run --name Global-Capslock-Server -p 8000:8000 global-capslock
+```
+
+Only Tested on Windows btw
+
+### Python
+```
+example-server.py 
+```
+In my experience just install dependacies then run it with python
 ### WHY DO THIS
 I WANTED us to all agree about caps lock usage
 
