@@ -34,6 +34,15 @@ docker run --name Global-Capslock-Server -p 8000:8000 global-capslock
 
 Only Tested on Windows btw
 
+### Docker-Compose:
+
+Install Docker, then open Terminal or CMD in project's dir, last:
+```
+docker compose up -d --build
+```
+
+Only Tested on Windows btw
+
 ### Python
 ```
 example-server.py 
